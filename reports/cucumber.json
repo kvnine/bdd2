@@ -1,0 +1,342 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "create basket",
+        "description": "",
+        "id": "create-basket;create-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 678946202,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 677055,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "Basket.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 978487,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "Basket.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create basket",
+    "description": "",
+    "id": "create-basket",
+    "keyword": "Feature",
+    "uri": "createBasket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "delete basket",
+        "description": "",
+        "id": "delete-basket;delete-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 682188,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 671456,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "Basket.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650458,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "Basket.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "delete basket",
+    "description": "",
+    "id": "delete-basket",
+    "keyword": "Feature",
+    "uri": "deleteBasket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "link basket",
+        "description": "",
+        "id": "link-basket;link-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216042,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263636,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "Basket.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171247,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "Basket.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "link basket",
+    "description": "",
+    "id": "link-basket",
+    "keyword": "Feature",
+    "uri": "linkBasket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "merge basket",
+        "description": "",
+        "id": "merge-basket;merge-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195044,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152582,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "Basket.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140917,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "Basket.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "merge basket",
+    "description": "",
+    "id": "merge-basket",
+    "keyword": "Feature",
+    "uri": "mergeBasket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "update basket",
+        "description": "",
+        "id": "update-basket;update-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202510,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145116,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "Basket.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131119,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "Basket.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "update basket",
+    "description": "",
+    "id": "update-basket",
+    "keyword": "Feature",
+    "uri": "updateBasket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  }
+]
