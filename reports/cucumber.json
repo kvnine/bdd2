@@ -18,37 +18,37 @@
         "steps": [
           {
             "result": {
-              "duration": 479313893,
+              "duration": 757607727,
               "status": "passed"
             },
             "line": 6,
             "name": "that i am on the shopping website",
             "match": {
-              "location": "Basket.that_i_am_on_the_shopping_website()"
+              "location": "Basket.thatIAmOnTheShoppingWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 882832,
+              "duration": 67190,
               "status": "passed"
             },
             "line": 7,
             "name": "i add an item to the basket",
             "match": {
-              "location": "Basket.i_add_an_item_to_the_basket()"
+              "location": "Basket.iAddAnItemToTheBasket()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 697120,
+              "duration": 65790,
               "status": "passed"
             },
             "line": 8,
             "name": "i can view the item in my basket",
             "match": {
-              "location": "Basket.i_can_view_the_item_in_my_basket()"
+              "location": "Basket.iCanViewTheItemInMyBasket()"
             },
             "keyword": "Then "
           }
@@ -86,37 +86,49 @@
         "steps": [
           {
             "result": {
-              "duration": 265036,
+              "duration": 101718,
               "status": "passed"
             },
             "line": 6,
             "name": "that i am on the shopping website",
             "match": {
-              "location": "Basket.that_i_am_on_the_shopping_website()"
+              "location": "Basket.thatIAmOnTheShoppingWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 217442,
+              "duration": 403605,
               "status": "passed"
             },
             "line": 7,
-            "name": "i add an item to the basket",
+            "name": "search for the basket",
             "match": {
-              "location": "Basket.i_add_an_item_to_the_basket()"
+              "location": "Basket.searchForTheBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79321,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "delete the basket",
+            "match": {
+              "location": "Basket.deleteTheBasket()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 182913,
+              "duration": 97985,
               "status": "passed"
             },
-            "line": 8,
-            "name": "i can view the item in my basket",
+            "line": 9,
+            "name": "unable to view the item in my basket",
             "match": {
-              "location": "Basket.i_can_view_the_item_in_my_basket()"
+              "location": "Basket.unableToViewTheItemInMyBasket()"
             },
             "keyword": "Then "
           }
@@ -154,37 +166,49 @@
         "steps": [
           {
             "result": {
-              "duration": 227240,
+              "duration": 111516,
               "status": "passed"
             },
             "line": 6,
             "name": "that i am on the shopping website",
             "match": {
-              "location": "Basket.that_i_am_on_the_shopping_website()"
+              "location": "Basket.thatIAmOnTheShoppingWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 191311,
+              "duration": 77454,
               "status": "passed"
             },
             "line": 7,
-            "name": "i add an item to the basket",
+            "name": "search for the baskets",
             "match": {
-              "location": "Basket.i_add_an_item_to_the_basket()"
+              "location": "Basket.searchForTheBaskets()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78388,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "link the baskets",
+            "match": {
+              "location": "Basket.linkTheBaskets()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 258970,
+              "duration": 16630871,
               "status": "passed"
             },
-            "line": 8,
-            "name": "i can view the item in my basket",
+            "line": 9,
+            "name": "able to view linked baskets",
             "match": {
-              "location": "Basket.i_can_view_the_item_in_my_basket()"
+              "location": "Basket.ableToViewLinkedBaskets()"
             },
             "keyword": "Then "
           }
@@ -222,37 +246,49 @@
         "steps": [
           {
             "result": {
-              "duration": 270635,
+              "duration": 111517,
               "status": "passed"
             },
             "line": 6,
             "name": "that i am on the shopping website",
             "match": {
-              "location": "Basket.that_i_am_on_the_shopping_website()"
+              "location": "Basket.thatIAmOnTheShoppingWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 201110,
+              "duration": 61124,
               "status": "passed"
             },
             "line": 7,
-            "name": "i add an item to the basket",
+            "name": "search for the baskets",
             "match": {
-              "location": "Basket.i_add_an_item_to_the_basket()"
+              "location": "Basket.searchForTheBaskets()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82121,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "merge the baskets",
+            "match": {
+              "location": "Basket.mergeTheBaskets()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 152116,
+              "duration": 81654,
               "status": "passed"
             },
-            "line": 8,
-            "name": "i can view the item in my basket",
+            "line": 9,
+            "name": "able to view the merged baskets",
             "match": {
-              "location": "Basket.i_can_view_the_item_in_my_basket()"
+              "location": "Basket.ableToViewTheMergedBaskets()"
             },
             "keyword": "Then "
           }
@@ -290,37 +326,49 @@
         "steps": [
           {
             "result": {
-              "duration": 197843,
+              "duration": 119915,
               "status": "passed"
             },
             "line": 6,
             "name": "that i am on the shopping website",
             "match": {
-              "location": "Basket.that_i_am_on_the_shopping_website()"
+              "location": "Basket.thatIAmOnTheShoppingWebsite()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 147450,
+              "duration": 65790,
               "status": "passed"
             },
             "line": 7,
-            "name": "i add an item to the basket",
+            "name": "search for the basket",
             "match": {
-              "location": "Basket.i_add_an_item_to_the_basket()"
+              "location": "Basket.searchForTheBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76988,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "update the basket",
+            "match": {
+              "location": "Basket.updateTheBasket()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 153515,
+              "duration": 67190,
               "status": "passed"
             },
-            "line": 8,
-            "name": "i can view the item in my basket",
+            "line": 9,
+            "name": "able to view the updated basket",
             "match": {
-              "location": "Basket.i_can_view_the_item_in_my_basket()"
+              "location": "Basket.ableToViewTheUpdatedBasket()"
             },
             "keyword": "Then "
           }

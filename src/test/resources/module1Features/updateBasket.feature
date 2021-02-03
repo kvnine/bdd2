@@ -4,5 +4,6 @@ Feature: update basket
 
   Scenario: update basket
     Given that i am on the shopping website
-    When i add an item to the basket
-    Then i can view the item in my basket
+    And search for the basket
+    When update the basket
+    Then able to view the updated basket

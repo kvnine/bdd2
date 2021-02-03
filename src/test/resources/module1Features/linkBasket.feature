@@ -4,5 +4,6 @@ Feature: link basket
 
   Scenario: link basket
     Given that i am on the shopping website
-    When i add an item to the basket
-    Then i can view the item in my basket
+    And search for the baskets
+    When link the baskets
+    Then able to view linked baskets

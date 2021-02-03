@@ -4,5 +4,6 @@ Feature: delete basket
 
   Scenario: delete basket
     Given that i am on the shopping website
-    When i add an item to the basket
-    Then i can view the item in my basket
+    And search for the basket
+    When delete the basket
+    Then unable to view the item in my basket

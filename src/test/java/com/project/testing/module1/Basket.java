@@ -1,6 +1,7 @@
 package com.project.testing.module1;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,38 +19,55 @@ public class Basket {
     //WebDriver driver;
 
     @Given("^that i am on the shopping website$")
-    public void that_i_am_on_the_shopping_website() throws Throwable {
-        System.out.println("i am on shopping website");
-        /*
-        driver = new ChromeDriver();
-
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.get("https://www.edgewordstraining.co.uk/demo-site/");
-        driver.manage().window().maximize();*/
+    public void thatIAmOnTheShoppingWebsite() {
     }
 
     @When("^i add an item to the basket$")
-    public void i_add_an_item_to_the_basket() throws Throwable {
-        System.out.println("i add an item to the basket");
-       /* driver.findElement(By.cssSelector("#masthead [type='search']")).click();
-        driver.findElement(By.cssSelector("#masthead [type='search']")).sendKeys("cap");
-        driver.findElement(By.cssSelector("#masthead [type='search']")).sendKeys(Keys.ENTER);
-        driver.findElement(By.cssSelector(".entry-summary button")).click();*/
+    public void iAddAnItemToTheBasket() {
     }
 
     @Then("^i can view the item in my basket$")
-    public void i_can_view_the_item_in_my_basket() throws Throwable {
-        System.out.println("i  can view the item in my basket");
-        /*driver.findElement(By.linkText("Cart")).click();
-        assertTrue(driver.findElement(By.linkText("Cap")).isDisplayed());
-        driver.findElement(By.linkText("×")).click();
-        // explicit wait for item to be removed as may use AJAX
-        WebDriverWait wait=new WebDriverWait(driver, 20); //explicit wait if we want to use
-        WebElement returnToShopLink;
-        returnToShopLink= wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Return to shop")));
-        returnToShopLink.click();
-        //driver.findElement(By.linkText("Return to shop")).click();
-        driver.quit();*/
+    public void iCanViewTheItemInMyBasket() {
+    }
+
+    @And("^search for the basket$")
+    public void searchForTheBasket() {
+    }
+
+    @When("^delete the basket$")
+    public void deleteTheBasket() {
+    }
+
+    @Then("^unable to view the item in my basket$")
+    public void unableToViewTheItemInMyBasket() {
+    }
+
+    @And("^search for the baskets$")
+    public void searchForTheBaskets() {
+    }
+
+    @When("^link the baskets$")
+    public void linkTheBaskets() {
+    }
+
+    @Then("^able to view linked baskets$")
+    public void ableToViewLinkedBaskets() {
+    }
+
+    @When("^merge the baskets$")
+    public void mergeTheBaskets() {
+    }
+
+    @Then("^able to view the merged baskets$")
+    public void ableToViewTheMergedBaskets() {
+    }
+
+    @When("^update the basket$")
+    public void updateTheBasket() {
+    }
+
+    @Then("^able to view the updated basket$")
+    public void ableToViewTheUpdatedBasket() {
     }
 
 }

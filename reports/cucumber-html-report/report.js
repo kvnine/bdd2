@@ -42,24 +42,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Basket.that_i_am_on_the_shopping_website()"
+  "location": "Basket.thatIAmOnTheShoppingWebsite()"
 });
 formatter.result({
-  "duration": 479313893,
+  "duration": 757607727,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_add_an_item_to_the_basket()"
+  "location": "Basket.iAddAnItemToTheBasket()"
 });
 formatter.result({
-  "duration": 882832,
+  "duration": 67190,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_can_view_the_item_in_my_basket()"
+  "location": "Basket.iCanViewTheItemInMyBasket()"
 });
 formatter.result({
-  "duration": 697120,
+  "duration": 65790,
   "status": "passed"
 });
 formatter.uri("deleteBasket.feature");
@@ -97,33 +97,45 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "i add an item to the basket",
-  "keyword": "When "
+  "name": "search for the basket",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "i can view the item in my basket",
+  "name": "delete the basket",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "unable to view the item in my basket",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Basket.that_i_am_on_the_shopping_website()"
+  "location": "Basket.thatIAmOnTheShoppingWebsite()"
 });
 formatter.result({
-  "duration": 265036,
+  "duration": 101718,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_add_an_item_to_the_basket()"
+  "location": "Basket.searchForTheBasket()"
 });
 formatter.result({
-  "duration": 217442,
+  "duration": 403605,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_can_view_the_item_in_my_basket()"
+  "location": "Basket.deleteTheBasket()"
 });
 formatter.result({
-  "duration": 182913,
+  "duration": 79321,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Basket.unableToViewTheItemInMyBasket()"
+});
+formatter.result({
+  "duration": 97985,
   "status": "passed"
 });
 formatter.uri("linkBasket.feature");
@@ -161,33 +173,45 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "i add an item to the basket",
-  "keyword": "When "
+  "name": "search for the baskets",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "i can view the item in my basket",
+  "name": "link the baskets",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "able to view linked baskets",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Basket.that_i_am_on_the_shopping_website()"
+  "location": "Basket.thatIAmOnTheShoppingWebsite()"
 });
 formatter.result({
-  "duration": 227240,
+  "duration": 111516,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_add_an_item_to_the_basket()"
+  "location": "Basket.searchForTheBaskets()"
 });
 formatter.result({
-  "duration": 191311,
+  "duration": 77454,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_can_view_the_item_in_my_basket()"
+  "location": "Basket.linkTheBaskets()"
 });
 formatter.result({
-  "duration": 258970,
+  "duration": 78388,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Basket.ableToViewLinkedBaskets()"
+});
+formatter.result({
+  "duration": 16630871,
   "status": "passed"
 });
 formatter.uri("mergeBasket.feature");
@@ -225,33 +249,45 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "i add an item to the basket",
-  "keyword": "When "
+  "name": "search for the baskets",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "i can view the item in my basket",
+  "name": "merge the baskets",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "able to view the merged baskets",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Basket.that_i_am_on_the_shopping_website()"
+  "location": "Basket.thatIAmOnTheShoppingWebsite()"
 });
 formatter.result({
-  "duration": 270635,
+  "duration": 111517,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_add_an_item_to_the_basket()"
+  "location": "Basket.searchForTheBaskets()"
 });
 formatter.result({
-  "duration": 201110,
+  "duration": 61124,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_can_view_the_item_in_my_basket()"
+  "location": "Basket.mergeTheBaskets()"
 });
 formatter.result({
-  "duration": 152116,
+  "duration": 82121,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Basket.ableToViewTheMergedBaskets()"
+});
+formatter.result({
+  "duration": 81654,
   "status": "passed"
 });
 formatter.uri("updateBasket.feature");
@@ -289,33 +325,45 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "i add an item to the basket",
-  "keyword": "When "
+  "name": "search for the basket",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "i can view the item in my basket",
+  "name": "update the basket",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "able to view the updated basket",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Basket.that_i_am_on_the_shopping_website()"
+  "location": "Basket.thatIAmOnTheShoppingWebsite()"
 });
 formatter.result({
-  "duration": 197843,
+  "duration": 119915,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_add_an_item_to_the_basket()"
+  "location": "Basket.searchForTheBasket()"
 });
 formatter.result({
-  "duration": 147450,
+  "duration": 65790,
   "status": "passed"
 });
 formatter.match({
-  "location": "Basket.i_can_view_the_item_in_my_basket()"
+  "location": "Basket.updateTheBasket()"
 });
 formatter.result({
-  "duration": 153515,
+  "duration": 76988,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Basket.ableToViewTheUpdatedBasket()"
+});
+formatter.result({
+  "duration": 67190,
   "status": "passed"
 });
 });
