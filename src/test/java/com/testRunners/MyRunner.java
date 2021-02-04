@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
                 "json:reports/cucumber.json",
                 "pretty"},
         tags = {"@runit,@run","~@ignore"},
-        features = {"src/test/resources/module1Features"},
+        features = {"src/test/resources/module1Features/ApiTesting.feature"},
         glue = {"com/project/testing/module1"}
 )
 

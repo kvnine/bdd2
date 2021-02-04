@@ -69,5 +69,4 @@ public class Basket {
     @Then("^able to view the updated basket$")
     public void ableToViewTheUpdatedBasket() {
     }
-
 }
